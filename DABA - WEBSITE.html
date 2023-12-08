@@ -1,0 +1,249 @@
+<html lang="en"> <!-- html sagt aus, dass der Code darin in html geschrieben ist -->
+
+
+<head>
+    <!--  Hier kommen die Eigenschaften der Website rein, wie etwa Titel, Aussehen, und so weiter  -->
+    <title>Code zum Experimentieren</title> <!-- Hier kommt der Titel des Dokuments rein  -->
+    <!-- CSS Code behandeln wir in den nächsten Stunden erst!  -->
+    <style>
+        img {
+            width: 200px;
+        }
+        body {
+            background-color:rgb(184, 163, 28) ;
+            font-style:italic ;
+            color:rgb(4, 4, 4);
+            
+        }
+        hr {
+            color: rgba(255, 2, 2, 0);
+        }
+        .l {
+            width: 600px;
+        }
+        
+    </style>
+</head>
+
+
+
+<body>
+    <h1>Überschrift 1</h1> <!-- h1 steht für eine Überschrift mit der größten Größe  -->
+    <h2>Überschrift 2</h2> <!-- h2 steht für eine Überschrift mit der zweitgrößten Größe  -->
+    <h3>Überschrift 3</h3> <!-- h3 steht für eine Überschrift mit der drittgrößten Größe  -->
+    <h4>Überschrift 4</h4> <!-- h4 steht für eine Überschrift mit der viertgrößten Größe  -->
+    <h5>Überschrift 5</h5> <!-- h5 steht für eine Überschrift mit der fünftgrößten Größe  -->
+    <h6>Überschrift 6</h6>
+    <!-- h6 steht für eine Überschrift mit der kleisten Größe. 
+        Kleinere Überschriften als h6 gibt es nicht. Probiere es gerne aus! Dafür kannst du zum Beipsiel mal <h7></h7> und <h8></h8> ausprobieren  -->
+
+    <br>
+    <!-- Damit eine leere Zeile auf der Website angezeigt wird, reicht es nicht im Code eine Zeile frei zu lassen. Wir müssen einen deutlichen Befehl geben, eine Zeile fraizulassen. Dazu ist <br> da, 
+        Probiere gerne immer wieder <br> tags zwischen den einzelnen Code-zeilen zu schreiben!  -->
+
+    <p>Probetext. Dieser Text dient rein zu Schauzwecken</p> <!-- mit dem <p></p> tag wird Text markiert. Alles, was in einem <p></p> tag geschrieben wird, ist ein Text.  -->
+
+    <hr> <!-- <hr> steht für einen trennstrich. Mit <hr> werden einzelne Abschnitte einer Website voneinander Getrennt. Zum Beispiel die Überschrift vom Inhalt. Probiere gerne aus, die Überschirften oben vom Text mit einem <hr> tag zu trennen!  -->
+
+    <a href="https://www.google.com">Google</a>
+    <!-- mit dem <a></a> tag werden Links in eine Websites eingefügt. Damit kann man Verbindungen zu anderen Websiten herstellen. 
+        href steh für link. href = "" bedeutet dementsprechend Link = "". Zwischen die Anführungszeichen "" trägt man daher den Link ein, zu dem man will. 
+        Zwischen den <a></a> tag schreibt man die Bezeichnung des Links. Zum Beispiel Google, oder YouTube!  -->
+
+    <p>Dies ist normaler Text</p>
+    <!--An diesem <p></p> tag wurde nichts verändert -->
+    <p>Dies ist <b>fettgestellter</b> Text</p> <!-- Hier wurd um den Text der fett werden soll ein <b></b> tag hinzugefügt -->
+    <p>Dies ist <i>schräggestellter</i> Text</p> <!-- Hier wurd um den Text der schräg werden soll ein <i></i> tag hinzugefügt -->
+    <p>Dies ist <big>großer</big> Text</p> <!-- Hier wurd um den Text der groß werden soll ein <big></big> tag hinzugefügt -->
+    <p>Dies ist <small>kleiner</small> Text</p> <!-- Hier wurd um den Text der klein werden soll ein <small></small> tag hinzugefügt -->
+    <p>Dies ist <sub>untergestellter</sub> Text</p> <!-- Hier wurd um den Text der untergestellt werden soll ein <sub></sub> tag hinzugefügt -->
+    <p>Dies ist <sup>obergestellter</sup> Text</p> <!-- Hier wurd um den Text der hochgestellt werden soll ein <sup></sup> tag hinzugefügt -->
+    <p>Dies ist <ins>unterstrichener</ins> Text</p> <!-- Hier wurd um den Text der unterstrichen sein soll ein <ins></ins> tag hinzugefügt -->
+    <p>Dies ist <del>gelöschter</del> Text</p> <!-- Hier wurd um den Text der durchgestrichen werden soll ein <del></del> tag hinzugefügt -->
+    <p>Dies ist <mark>markierter</mark> Text</p> <!-- Hier wurd um den Text der markiert werden soll ein <mark></mark> tag hinzugefügt -->
+
+    <img src="https://www.buchreport.de/wp-content/uploads/2020/04/PalutencBorisLehfeld.jpg"> <!-- src="" bedeutet Quelle="". Zwischen die "" packst du dann den Link zu einem Bild das du magst! -->
+    <br><br><br>
+    <table><!-- table steht für eine Tabelle-->
+        <tr> <!-- tr beschreibt eine Zeile von oben nach unten gezählt. Jedes weitere tr ist eine Zeile weiter unten -->
+            <th>Tag 1</th> <!--  th beschreibt eine Zeile die eine Überschrift enthält von links nach rechts gezählt. Jedes weitere th ist eine Zeile weiter rechts--> 
+            <th>Tag 2</th>
+            <th>Tag 3</th>
+            <th>Tag 4</th>
+            <th>Tag 5</th>
+            <th>Tag 6</th>
+            <th>Tag 7</th>
+        </tr>
+        <tr> <!-- tr beschreibt eine Zeile von oben nach unten gezählt. Jedes weitere tr ist eine Zeile weiter -->
+            <td>Aktivität</td> <!--  td beschreibt eine Zeile von links nach rechts gezählt. Jedes weitere td ist eine Zeile weiter rechts--> 
+            <td>Aktivität</td>
+            <td>Aktivität</td>
+            <td>Aktivität</td>
+            <td>Aktivität</td>
+            <td>Aktivität</td>
+            <td>Aktivität</td>
+        </tr>
+        <tr> <!-- tr beschreibt eine Zeile von oben nach unten gezählt. Jedes weitere tr ist eine Zeile weiter -->
+            <td>Aktivität 2</td>
+            <td>Aktivität 2</td>
+            <td>Aktivität 2</td>
+            <td>Aktivität 2</td>
+            <td>Aktivität 2</td>
+            <td>Aktivität 2</td>
+            <td>Aktivität 2</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <li>Punkt 1</li> <!--<li></li> beschreibt einen Stichpunkt -->
+    <li>Punkt 2</li>
+    <li>Punkt 3</li>
+    <br><br><br><br><br><hr><br><br><b></b><br>
+    
+    
+    <!-- Hier unten schreibst du deinen eigenen Code hin !-->
+
+    
+    
+    <h1><p><ins>Hallo Ich bin Dabaa !</ins></p></h1>
+
+
+
+    <hr>
+
+
+
+    <h2><p><mark>Hier beschreibe Ich meine Hobbys:</mark></p></h2>
+
+
+
+    
+    <p>Ich mag eigentlich nur <mark>Fußball und Schwimmen </mark></p>
+    <br> <br> <br>
+    <hr>
+    <br>
+    <h3><big>Außerdem habe ich noch flogende Freizeitbeschäftigungen:</big></h3>
+    <br>
+    <p><mark>Fußball</mark></p>
+    <p><mark>Schwimmen</mark></p>
+    <br>
+    <h3><b>Das ist der Ablauf meiner Nachmittags:</b></h3>
+    <table>
+        <tr>
+            <td>Montag</td>
+            <td>Dienstag</td>
+            <td>Mittwoch</td>
+            <td>Donnerstag</td>
+            <td>Freitag</td>
+
+        </tr>
+        <tr>
+            <td>Fußball</td>
+            <td>Schule</td>
+            <td>Fußball</td>
+            <td>Schule</td>
+            <td>Schule</td>
+
+
+        
+        </tr>
+            
+
+    </table>
+    <h2>Hier beschreibe ich meine Lieblingsfächer - ratet mal welche das sind !</h2>
+    <br>
+
+    <h45>Zuerst einmal mein erst Lieblingsfach:In diesem Fach wird viel gerechnet,es gibt im späteren Verlauf auch Buchstaben als Ersatz für Zahlen!</h45>
+    <h45>Und jetzt mein zweitliebstes Fach: In diesem Fach wird über Länder gesprochen und auf jeden fall Kontinente</h45>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Hier eine meine Lieblingswebsites !</h2>
+<br>
+        <a href="https://www.google.com">Virus</a>
+            <br>
+            <br>
+    
+        <a href="https://www.youtube.com">Komm zu den Virus</a>
+        <h2>Hier einer meiner Lieblings YouTuber</h2>
+    <img class="l"src="https://knowinsiders.com/stores/news_dataimages/trangnth/042022/28/23/2215_MrBeast-1568x877.png?rt=20220428232218">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
